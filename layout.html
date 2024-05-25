@@ -1,0 +1,79 @@
+<!-- The HTML5 doctype declaration is very simple -->
+<!DOCTYPE html>
+<!-- All page content is inside the html element -->
+<html>
+    <!-- Head element content is not visible in a browser window -->
+    <head>
+        <!-- The UTF-8 character set provides the most support for all symbols and characters -->
+        <meta charset="UTF-8">
+        <title></title>
+        <!-- Google Site Tag for Google Analytics
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125811789-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-125811789-1');
+        </script>
+        -->
+        <!-- Helps with rendering on mobile devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The following lines link to the style sheet files -->
+        <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+        <!-- JQuery Mobile style sheets -->
+        <link href="css/mobile.css" rel="stylesheet">
+        <link href="css/jquery.mobile.icons.min.css" rel="stylesheet">
+        <!-- Custom fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro" rel="stylesheet">
+        <!-- Script that detects mobile users and diverts them to the mobile.html file -->
+        <script type="text/javascript">
+            // <![CDATA[
+            var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
+            if (mobile) {
+                document.location = "mobile.html";
+            }
+            // ]]>
+        </script>
+        <!-- Scripts for JQuery Mobile -->
+        <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    </head>
+    <!-- Content visible in the browser's window is inside the body element -->
+    <body>
+        <!-- All content is enclosed in the wrapper ID style -->
+        <div id="wrapper">
+            <!-- The banner ID style is inside the wrapper ID style -->
+            <div id="banner">
+                <h1>Website for Advanced Web Coding</h1>
+                <p>Hey, this is Shift Fn! I like working on computers, playing PC games, reading novels, listening to music, socializing,
+                    trying new things, eating food, hanging out, and other spontaneous stuff. Currently pursuing a degree in Computer
+                    Science. A PC gamer and Steam user.</p>
+            </div>
+            <!-- The left-column ID style is floated left and used for navigation -->
+            <div id="left-column">
+                <h3>Links...</h3>
+                <ul>
+                    <li><a href="index2.html">Home</a></li>
+                    <li><a href="video.html">Video</a></li>
+                    <li><a href="form.html">Feedback Form</a></li>
+                    <li><a href="semantic.html">Semantic Markup</a></li>
+                    <li><a href="responsive.html">Responsive Desgin</a></li>
+                    <li><a href="http://www.w3schools.com/" target="_blank">References: W3Schools</a></li>
+                </ul>
+            </div>
+            <!-- The right-column ID style is floated right and used for content -->
+            <div id="right-column">
+                <h2>Content Header</h2>
+                <p>Description</p>
+            </div>
+            <!-- The clear class style clears (removes) float -->
+            <div class="clear"></div>
+            <div id="footer">
+                <h4 id="author">Site by Shift Fn</h4>
+                <h4 id="copyright">Copyright &copy; 2024, All Rights Reserved</h4>
+            </div>
+        </div>
+        <div id="bottom"></div>
+    </body>
+</html>
