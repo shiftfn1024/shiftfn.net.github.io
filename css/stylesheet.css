@@ -10,7 +10,7 @@
 
 @import url("https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro");
 
-/* The body tag applies to all elemnts on the page */
+/* The body tag applies to all elements on the page */
 body
 {
 	background: #484848;
@@ -81,7 +81,7 @@ button:hover
 {
 	clear: both;
 }
-/* Advanced Web design relies on class or ID styles, never tables */
+/* Advanced Web Design relies on class or ID styles, never tables */
 .box
 {
 	height: 100px;
